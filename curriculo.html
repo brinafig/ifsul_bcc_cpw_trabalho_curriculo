@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Currículo</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+                  <!-- link do bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <style>
+
+            body{
+                margin: 80px
+            }
+
+            #foto{
+                text-align: center;
+                width: 20%;
+                height: 125%;
+                background-color: rgb(70, 74, 78);
+                float: left;
+            }
+
+            .dadoscadastrais{  
+                color:rgb(255, 255, 255);
+                text-align:center;
+                width: 20%;
+                height: 340%;
+                background-color: rgb(70, 74, 78);
+                float: left;
+                clear: both
+            }
+
+            .cabecalho{
+                width: auto;
+                height: 225px;
+                background-color: rgb(153, 186, 214);
+            }
+
+            #myTab{
+                margin-top: 50px;
+                margin-left: 24%;
+            }
+
+            #myTabContent{
+                margin-left:24%;
+            }
+
+            #dadosiniciais{
+                margin-left:24%;
+                float: center;
+            }
+        
+
+        </style>
+    </head> 
+    
+    <body>
+       
+        <div class="cabecalho">
+         <div id="foto">
+            <br><img src="../curriculo/fotocurriculo.jpg" alt="" height="200px" width="200px">
+         </div>
+         <div id="dadosiniciais">
+         <h2><br><span style="color: rgb(70, 74, 78);">Sabrina Figueiredo Ferraz de Almeida</span></h2> 
+         <br>
+         <p><strong> Linkedin:</strong><a href= www.linkedin.com/in/sabrina-figueiredo-ferraz-de-almeida-282562238> www.linkedin.com/in/sabrina-figueiredo-ferraz-de-almeida-282562238</a></p>
+         <p><strong> Lattes:</strong><a href=http://lattes.cnpq.br/6268642473858210> http://lattes.cnpq.br/6268642473858210</a></p>
+         </div>
+
+         <p class="dadoscadastrais">
+            <strong>Endereço:</strong> São Cristóvão; Passo Fundo, RS.
+         <br>
+            <strong>CEP:  </strong> 99060-450
+         <br>
+            <strong>Telefone: </strong> (54)984009717
+         <br>
+            <strong>E-mail:</strong> sabrinaffalmeida@gmail.com
+         <br>
+         </p>
+        </div>
+         
+         <!-- exemplo do bootstrap alterando as ids para fazer sentido com o conteúdo -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+         
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="formacao-tab" data-bs-toggle="tab" data-bs-target="#formacao" type="button" role="tab" aria-controls="formacao" aria-selected="false">Formação</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="expprof-tab" data-bs-toggle="tab" data-bs-target="#expprof" type="button" role="tab" aria-controls="expprof" aria-selected="false">Experiência Profissional</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="cursoscomp-tab" data-bs-toggle="tab" data-bs-target="#cursoscomp" type="button" role="tab" aria-controls="cursoscomp" aria-selected="false">Cursos Complementares</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="idiomas-tab" data-bs-toggle="tab" data-bs-target="#idiomas" type="button" role="tab" aria-controls="idiomas" aria-selected="false">Idiomas</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="false">Informações Adicionais</button>
+            </li>
+            
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+           
+            <div class="tab-pane fade" id="formacao" role="tabpanel" aria-labelledby="formacao-tab">
+                <p>
+                <strong> INSTITUTO FEDERAL SUL-RIO-GRANDENSE/</strong> Ciência da Computação
+                <br>
+                Setembro 2024 - Setembro 2028 (Previsão), Passo Fundo. 
+                <br>
+                <br>
+                <strong> UNYLEYA/</strong> Pós-Graduação em Engenharia Econômica e Financeira
+                <br>
+                Dezembro 2022 - Outubro 2023, Passo Fundo. 
+                <br>
+                <br>
+                <strong>INSTITUTO FEDERAL SUL-RIO-GRANDENSE/ </strong> Engenharia Mecânica
+                <br>
+                Fevereiro 2018 - Março 2023, Passo Fundo.
+                <br>
+                </p>
+            </div>
+
+            <div class="tab-pane fade" id="expprof" role="tabpanel" aria-labelledby="expprof-tab">
+                <p>
+                    <strong> IFSul/</strong> Estagiária
+                    <br>
+                    Setembro 2024 - Presente, Passo Fundo.
+                    <br>
+                    Auxiliar os professores nas disciplinas de Matemática. 
+                    <br>
+                    <br>
+                    <strong> ICV Agro Parts/</strong> Estagiária
+                    <br>
+                    Junho 2022 - Novembro 2022, Passo Fundo.
+                    <br>
+                    Modelamento e detalhamento de peças em software de CAD 3D. Desenvolvimento de relatórios e manuais.
+                </p>
+            </div>
+
+            <div class="tab-pane fade" id="cursoscomp" role="tabpanel" aria-labelledby="cursoscomp-tab">
+               <label for="cursos"><strong>Cursos: </strong></label> 
+                <ol>
+                    <li>Língua Inglesa, concluído na UPF Idiomas em 2019.</li>
+                    <li>Speaking Clinic, concluído na iTTTi Vancouver, Canadá, em 2020.</li>
+                    <li>Língua Alemã, concluído na UPF Idiomas em 2021.</li>
+                    <li>Excel Avançado, concluído na Certificados Cursos Online em 2022.</li>
+                </ol>
+                <br>
+                <label for="certificados"><strong> Certificados: </strong></label>
+                <br>
+                <ol>
+                    <li>Participação na competição "SAE BRASIL AeroDesign", em 2019 e 2020.</li>
+                    <li>Data Analytics do Google, concluído no Coursera em 2023.</li>
+                    <li>Implementando Banco de Dados, concluído na Fundação Bradesco em 2023.</li>
+                    <li>Publicação de artigo científico e participação de minicurso: Radiação Solar com Python: Análise e Aplicações Práticas, concluídos no XCBENS em 2024.</li>
+                </ol>
+                </p>
+            </div>
+
+            <div class="tab-pane fade" id="idiomas" role="tabpanel" aria-labelledby="idiomas-tab">
+                <ul>
+                    <li>Língua Inglesa, nível avançado.</li>
+                    <li>Língua Alemã, nível intermediário.</li>
+                    <li>Lígua Espanhola, nível intermediário.</li>
+                </ul>
+            </div>
+
+            <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+                <ul>
+                    <li>Conhecimento em: Pacote Office, banco de dados, SQL, R, Tableau e SolidWorks.</li>
+                    <li>Experiência com crianças através de trabalho voluntário.</li>
+                </ul>
+            </div>
+
+        </div>
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+
+    </body>
+
+</html>
